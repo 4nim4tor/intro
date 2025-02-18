@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  min-height: 100svh;
+  background-color: rgb(208, 218, 207);
+}
+
+article {
+  border: solid 1px black;
+  max-width: 400px;
+  margin-inline: auto;
+  border: solid 2px black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(56, 216, 163);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: beige;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: aqua;
+}
