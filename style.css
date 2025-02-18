@@ -31,7 +31,7 @@ h2 {
 }
 
 nav {
-  background-color: rgb(56, 216, 163);
+  background-color: rgb(50, 207, 50);
   height: 60px;
   display: flex;
   align-items: center;
@@ -48,7 +48,7 @@ a {
 
 a:hover,
 a:focus {
-  color: aqua;
+  color: rgb(0, 0, 0);
   font-size: 50px;
   transform: rotate(360deg);
 }
