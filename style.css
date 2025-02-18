@@ -43,7 +43,7 @@ a {
   font-size: 30px;
   font-weight: 700;
   text-decoration: none;
-  transition: 0.7;
+  transition: 0.7s;
 }
 
 a:hover,
