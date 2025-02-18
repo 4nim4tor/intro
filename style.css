@@ -14,9 +14,9 @@ body {
 }
 
 article {
-  border: solid 1px black;
   max-width: 400px;
   margin-inline: auto;
+  margin-top: 20px;
   border: solid 2px black;
   padding: 20px;
   border-radius: 10px;
@@ -26,11 +26,16 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 nav {
   background-color: rgb(56, 216, 163);
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 a {
@@ -38,9 +43,12 @@ a {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover,
 a:focus {
   color: aqua;
+  font-size: 50px;
+  transform: rotate(360deg);
 }
